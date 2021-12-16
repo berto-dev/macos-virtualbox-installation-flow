@@ -36,17 +36,23 @@ Important note: **it's under costruction and based on personal use.**
    
    - **open vb** > preference > change default vm folder in (suggest name) C:/Virtualized
      <br>_or other simpled folder for check contents of vm_
+     
+   - for better performace **open Virtual Box folder** and
+     -  set VirtualBox.exe windows8 compatibility and low dpi
+     -  set VBoxSVC.exe windows8 compatibility and low dpi
+     -  open Nvidea Control Panel and add VirtualBox.exe and VBoxSVC.exe on applications for max resoucers
    
    - **make new virtual machine** and:<br>
      > warning: if not follow it litterally, you do a _*starterror_*
 
      - named it Big Sur, <br>
      - select folder Big Sur,<br>
-     - select Mac OS X, Mac OS X (64-bit)<br>set 4096 | 8192 | 16384 | 32768 of ram,<br>set dynamic VDI,<br>
+     - select Mac OS X, Mac OS X (64-bit)<br>set 4096 | 8192 | 16384 of ram,<br>set dynamic VDI,<br>
      - min 60gb SSD,<br><br>
      - in system set:  VCH9 <br>
        in system set: remove floppy<br>
        in system set:  4 | 6 | 8  CPU<br>
+       in system set: oldgen and neasted virtualization active<br>
        in system set: standard VBoxSVGA 128Mb | 256Mb (no accelleration)<br>
        in system > accelleration set:<br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for intel cpu set minimal<br>
