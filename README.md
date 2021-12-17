@@ -19,12 +19,16 @@ Important note: **it's under costruction and based on personal use.**
 ------
 
 
-
-## Installation:
+### warnings:
 
 <br>
 
+> unfortunately it is no longer possible to install xcode in this version. An updated image of BigSur or Monteray would be needed
+
 > Although it's only for compiling, I would recommend an hackintosh on a dedicated partition due the poor performance of vm. However...
+
+## Installation:
+
 <br>
 
  - **get and use the [VirtualBox installer](https://www.virtualbox.org/wiki/Downloads)** and the [extension pack](https://download.virtualbox.org/virtualbox/6.1.30/Oracle_VM_VirtualBox_Extension_Pack-6.1.30.vbox-extpack)<br>
